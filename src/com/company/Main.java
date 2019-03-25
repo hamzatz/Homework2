@@ -8,5 +8,6 @@ public class Main {
     String text = text1+text2;
         System.out.println(text);
         System.out.println(text1);
+        System.out.println("До скорой встречи!");
     }
 }
