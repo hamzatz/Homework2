@@ -9,5 +9,5 @@ public class Main {
         System.out.println(text);
         System.out.println(text1);
         System.out.println("До скорой встречи!");
-    }
+            }
 }
