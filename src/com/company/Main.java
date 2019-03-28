@@ -3,11 +3,33 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-    final String text1 = "Привет,";
-    String text2 = "мир ! Ты так прекрасен!";
-    String text = text1+text2;
-        System.out.println(text);
-        System.out.println(text1);
-        System.out.println("До скорой встречи!");
+        String name = "Хамзат";
+        int age = 45;
+        int grads = 25;
+        {
+            if (grads < 30 || grads > -20) {
+                System.out.println(name + " тебе нельзя на улицу!");
+                {
+                    if (age == 20 || age > 40) ;
+
+                    else {
+                        System.out.println("Ты идешь к своему другу!");
+                    }
+                    {
+                        if (age > 20) ;
+
+                        else if (grads > 0 || grads < 28);
+
+                        else {
+                            System.out.println("Ты идешь к своему другу!");
+                        }
+                        {
+                            if (age < 45) ;
+                            else if (grads < -10 || grads > 25);
+                            }
+                        }
+                    }
+                }
             }
-}
+        }
+    }
